@@ -1,0 +1,82 @@
+header{
+    height: 300px;
+    background-image: url(https://s0.rbk.ru/v6_top_pics/media/img/3/93/346872775643933.webp);
+    font-size: 50px;
+    background-position: center;
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    color: rgb(218, 131, 234);
+    padding-left: 30px;
+    text-align: center;
+    text-shadow: black 2px 2px 5px;
+   
+}
+main{
+
+
+    background-color: rgb(70, 178, 224);
+    height: 100%;
+    color:rgb(0, 0, 0);
+    font-size:50px;
+
+    display: flex;
+    justify-content: center;
+
+    background-image: url(https://dietology.pro/upload/iblock/25e/25e4002eeee809b974915fae0baab2c8.jpeg);
+background-attachment: fixed;
+background-size: cover;
+}
+.left{
+    background-color: rgba(233, 150, 122, 0.821);
+    height: 100%;
+    width: 50%;
+    float: left;
+    padding: 100px;
+    text-align: justify;
+    font-size: 30px;
+
+}
+
+.right{
+    background-color: rgba(80, 246, 182, 0);
+    height:100%;
+    width: 50%;
+    float: right;
+    text-align:center ;
+}
+
+.cont{
+    width:80%;
+    height:100%;
+    display: flex;
+}
+.f_left{
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+.f_right{
+    width: 70%;
+    float: right;
+}
+.f_right img{
+    width: 100px;
+    padding-left: 20px;
+}
+.f_right ul{
+    list-style: none;
+    display: flex;
+    align-items:center ;
+}
+
+
+body{
+    margin: 0;
+}
+
+footer{
+    background: linear-gradient(to right, rgb(94, 0, 0), yellow);
+    background-color: aqua;
+    height: 100%;
+}
